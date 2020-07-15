@@ -59,7 +59,7 @@ No authorization required
 ### HTTP request headers
 
  - **Content-Type**: application/json
- - **Accept**: */*
+ - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
@@ -109,7 +109,7 @@ No authorization required
 ### HTTP request headers
 
  - **Content-Type**: application/json
- - **Accept**: */*
+ - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
@@ -180,7 +180,7 @@ $apiInstance = new EzzeSiftuz\ShipmentsV1\Api\ShipmentsApi(
     new GuzzleHttp\Client()
 );
 $datefrom = "datefrom_example"; // string | Shipments created from this date onwards for the given authorized partner will be returned. The date is considered as UTC.
-$limit = 56; // int | The maximum number of shipments to be returned in each response.
+$limit = 25; // int | The maximum number of shipments to be returned in each response.
 $next = "next_example"; // string | The cursor which points to the next shipment that should be queried. It is used to paginate the results.
 
 try {
@@ -197,7 +197,7 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **datefrom** | **string**| Shipments created from this date onwards for the given authorized partner will be returned. The date is considered as UTC. |
- **limit** | **int**| The maximum number of shipments to be returned in each response. | [optional]
+ **limit** | **int**| The maximum number of shipments to be returned in each response. | [optional] [default to 25]
  **next** | **string**| The cursor which points to the next shipment that should be queried. It is used to paginate the results. | [optional]
 
 ### Return type
