@@ -1,15 +1,15 @@
 # EzzeSiftuz\ShipmentsV1\ShipmentsApi
 
-All URIs are relative to *https://live.api.otto.market/v1*
+All URIs are relative to *https://live.api.otto.market*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
-[**appendPositionItemsByCarrierAndTrackingNumberUsingPOST**](ShipmentsApi.md#appendpositionitemsbycarrierandtrackingnumberusingpost) | **POST** /shipments/carriers/{carrier}/trackingnumbers/{trackingNumber}/positionitems | 
-[**appendPositionItemsUsingPOST**](ShipmentsApi.md#appendpositionitemsusingpost) | **POST** /shipments/{shipmentId}/positionitems | 
-[**createdAndSentShipmentUsingPOST**](ShipmentsApi.md#createdandsentshipmentusingpost) | **POST** /shipments | 
-[**listShipmentsUsingGET**](ShipmentsApi.md#listshipmentsusingget) | **GET** /shipments | 
-[**shipmentByCarrierAndTrackingNumberUsingGET**](ShipmentsApi.md#shipmentbycarrierandtrackingnumberusingget) | **GET** /shipments/carriers/{carrier}/trackingnumbers/{trackingNumber} | 
-[**shipmentUsingGET**](ShipmentsApi.md#shipmentusingget) | **GET** /shipments/{shipmentId} | 
+[**appendPositionItemsByCarrierAndTrackingNumberUsingPOST**](ShipmentsApi.md#appendpositionitemsbycarrierandtrackingnumberusingpost) | **POST** /v1/shipments/carriers/{carrier}/trackingnumbers/{trackingNumber}/positionitems | 
+[**appendPositionItemsUsingPOST**](ShipmentsApi.md#appendpositionitemsusingpost) | **POST** /v1/shipments/{shipmentId}/positionitems | 
+[**createdAndSentShipmentUsingPOST**](ShipmentsApi.md#createdandsentshipmentusingpost) | **POST** /v1/shipments | 
+[**listShipmentsUsingGET**](ShipmentsApi.md#listshipmentsusingget) | **GET** /v1/shipments | 
+[**shipmentByCarrierAndTrackingNumberUsingGET**](ShipmentsApi.md#shipmentbycarrierandtrackingnumberusingget) | **GET** /v1/shipments/carriers/{carrier}/trackingnumbers/{trackingNumber} | 
+[**shipmentUsingGET**](ShipmentsApi.md#shipmentusingget) | **GET** /v1/shipments/{shipmentId} | 
 
 # **appendPositionItemsByCarrierAndTrackingNumberUsingPOST**
 > appendPositionItemsByCarrierAndTrackingNumberUsingPOST($body, $carrier, $tracking_number)
